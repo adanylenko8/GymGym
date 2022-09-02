@@ -13,6 +13,10 @@
 		8B8E4CA528BD062C0024ECA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E4CA328BD062C0024ECA1 /* Main.storyboard */; };
 		8B8E4CA728BD06310024ECA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E4CA628BD06310024ECA1 /* Assets.xcassets */; };
 		8B8E4CAA28BD06310024ECA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E4CA828BD06310024ECA1 /* LaunchScreen.storyboard */; };
+		8B8E4CB228BD06BF0024ECA1 /* DoItTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E4CB128BD06BF0024ECA1 /* DoItTableViewController.swift */; };
+		8B8E4CB428BD08CE0024ECA1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E4CB328BD08CE0024ECA1 /* CustomTableViewCell.swift */; };
+		8BD1392228BD4A680087471D /* WhatDoItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1392128BD4A680087471D /* WhatDoItViewController.swift */; };
+		8BD1392428BD4FE60087471D /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1392328BD4FE60087471D /* Training.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		8B8E4CA628BD06310024ECA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B8E4CA928BD06310024ECA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B8E4CAB28BD06310024ECA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8E4CB128BD06BF0024ECA1 /* DoItTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoItTableViewController.swift; sourceTree = "<group>"; };
+		8B8E4CB328BD08CE0024ECA1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		8BD1392128BD4A680087471D /* WhatDoItViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDoItViewController.swift; sourceTree = "<group>"; };
+		8BD1392328BD4FE60087471D /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				8B8E4C9D28BD062C0024ECA1 /* AppDelegate.swift */,
 				8B8E4C9F28BD062C0024ECA1 /* SceneDelegate.swift */,
-				8B8E4CA128BD062C0024ECA1 /* ViewController.swift */,
 				8B8E4CA328BD062C0024ECA1 /* Main.storyboard */,
 				8B8E4CA628BD06310024ECA1 /* Assets.xcassets */,
 				8B8E4CA828BD06310024ECA1 /* LaunchScreen.storyboard */,
 				8B8E4CAB28BD06310024ECA1 /* Info.plist */,
+				8B8E4CA128BD062C0024ECA1 /* ViewController.swift */,
+				8B8E4CB128BD06BF0024ECA1 /* DoItTableViewController.swift */,
+				8B8E4CB328BD08CE0024ECA1 /* CustomTableViewCell.swift */,
+				8BD1392128BD4A680087471D /* WhatDoItViewController.swift */,
+				8BD1392328BD4FE60087471D /* Training.swift */,
 			);
 			path = GymGym;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8E4CA228BD062C0024ECA1 /* ViewController.swift in Sources */,
+				8B8E4CB428BD08CE0024ECA1 /* CustomTableViewCell.swift in Sources */,
 				8B8E4C9E28BD062C0024ECA1 /* AppDelegate.swift in Sources */,
 				8B8E4CA028BD062C0024ECA1 /* SceneDelegate.swift in Sources */,
+				8BD1392228BD4A680087471D /* WhatDoItViewController.swift in Sources */,
+				8BD1392428BD4FE60087471D /* Training.swift in Sources */,
+				8B8E4CB228BD06BF0024ECA1 /* DoItTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
